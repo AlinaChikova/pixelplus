@@ -67,22 +67,40 @@ div#header-text>p {
 	margin-right: 20px;
 }
 
-#menu>ul>li {	
-	display: inline;
-	text-decoration: none;
-	margin: 30px;
-	margin-top: 60px;
-	border-left: 2px solid white;	
+#menu>div {
+	width: 1020px;
+	height: 100%;
+	border: 1px solid blue;
+	margin: 0 auto;
+	padding-top: 23px;
 }
 
-#menu>ul>li>a {
+#menu>div>ul>li {	
+	display: inline;
+	text-decoration: none;	
+	margin-top: 60px;
+	
+}
+
+#menu>div>ul>li:first-child>a {	
+	border-left: none;	
+}
+
+#menu>div>ul>li>a {
 	color: white;
 	text-decoration: none;
+	font: 30px  Arial;
+	padding: 0 20px;
+	border-left: 3px solid white;	
 }
 
-#menu>ul {
+#menu>div>ul>li>a:hover {
+	text-decoration: underline;
+}
+
+#menu>div>ul {
 	margin: 0 auto;
-	padding:  30px auto;
+	margin-left: -40px;
 }
 
 #content {
