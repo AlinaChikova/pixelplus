@@ -14,7 +14,7 @@ body>div {
 	margin: 0;	
 	height: 100%;	
 	width: 100%;
-	display: block;
+	display: none;
 	left:0;
     top:0;
 	background-color: rgba(0,0,0, 0.7);
@@ -259,6 +259,11 @@ div#header-text>p {
 	float: right;	
 	width: 25px;
 	height: 25px;
+	background-color: #777;
+	color: #d8d8d8;
+	font-size: 20px;
+	text-align: center;
+	
 }
 
 #shadow>div {
@@ -283,7 +288,7 @@ textarea{
 	height: 120px;
 	border-radius: 3px;
 	background-color: white;
-	border: 2px solid #dcdcdc;
+	border: 2px solid #d8d8d8;
 	outline: none;
 	margin-left: 50px;
 	resize: none;
@@ -298,6 +303,7 @@ textarea{
 	margin-left: 50px;
 	outline: none;
 }
+
 label>p {
 	text-align: center;
 	color: #4c4c4c;
@@ -314,7 +320,16 @@ label>p {
 	border: 1px solid #d8d8d8;
 	border-radius: 0px;
 	margin-top: 20px;
-	margin-left: 160px;
-	
-	
+	margin-left: 160px;	
+	outline: none;
+}
+
+#header-center>buttom {
+	color: #777;
+	margin: 0 auto;
+	font: 14px Arial;
+}
+
+.form-pole:hover, textarea:hover {
+	border: 2px solid #4c4c4c;
 }

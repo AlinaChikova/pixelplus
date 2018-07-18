@@ -2,14 +2,20 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<link rel="stylesheet" href="style.css">
+		<title>pixelplus</title>
+		<link rel="stylesheet" href="style.css">	
+		<script>
+			var show = function (state) {
+				document.getElementById("shadow").style.display = state;
+			}
+		</script>
 	</head>
-	<body>
-		
-		<div>
+	<body>		
+		<div>			
 			<div id="container">
-			<div id="header">
+			<div id="header">				
 				<div id="header-center">
+					<buttom onclick="show('block')">обратная связь</buttom>
 					<img src="logo.png">
 					<div id="header-text">
 						<p><b>Название<br>компании</b></p>
@@ -88,8 +94,9 @@
 		<div id="shadow">
 			<div>
 				<div id="x">
-					<buttom>
-						<img src="x.png" alt="X">
+					<buttom id="close" onclick="show('none')">
+						&times;
+					<!--	<img src="x.png" alt="X"> -->
 					</buttom>
 				</div>
 				<div id="forma">
@@ -109,11 +116,8 @@
 						</label>
 						<input type="submit" value="ОТПРАВИТЬ" id="sub">
 					</form>
-				</div>
-				
+				</div>				
 			</div>
-		</div> 
-		
-		
+		</div> 		
 	</body>
 </html>
