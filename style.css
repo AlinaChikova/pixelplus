@@ -6,7 +6,7 @@ body>div {
 	margin: 0;	
 	height: 100%;	
 	width: 100%;
-	z-index: 2;
+	
 }
 
 #shadow {
@@ -14,7 +14,7 @@ body>div {
 	margin: 0;	
 	height: 100%;	
 	width: 100%;
-	z-index: 0;
+	display: block;
 	left:0;
     top:0;
 	background-color: rgba(0,0,0, 0.7);
@@ -298,7 +298,7 @@ textarea{
 	margin-left: 50px;
 	outline: none;
 }
-p {
+label>p {
 	text-align: center;
 	color: #4c4c4c;
 	font: 13px Arial;
