@@ -116,14 +116,22 @@ div#header-text>p {
 	border-left: none;	
 }
 
+
 #menu>div>ul>li>a {
 	color: white;
 	text-decoration: none;
 	font: 28px  Arial;
 	padding: 0 20px;
-	border-left: 3px solid white;	
-	
+	border-left: 3px solid white;		
 }
+
+@media (max-width: 600px) {
+	#menu>div>ul>li>a {	
+		border-left: 0;		
+	}
+}
+
+
 
 #menu>div>ul>li>a:hover {
 	text-decoration: underline;
